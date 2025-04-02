@@ -34,6 +34,7 @@ Ensure you have the following installed:
    ```sh
    python codegen.py set-key YOUR_GEMINI_API_KEY
    ```
+   Also set your GENAI_MODEL in the env file.
    <!-- Optionally, specify a default model:
    ```sh
    python codegen.py set-key YOUR_GEMINI_API_KEY --model gemini-2.0-pro
