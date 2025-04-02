@@ -21,7 +21,7 @@ Ensure you have the following installed:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo/ai-codegen-cli.git
+   git clone https://github.com/iamcosmo/AI-CodeGen-CLi.git
    cd ai-codegen-cli
    ```
 
@@ -34,16 +34,16 @@ Ensure you have the following installed:
    ```sh
    python codegen.py set-key YOUR_GEMINI_API_KEY
    ```
-   Optionally, specify a default model:
+   <!-- Optionally, specify a default model:
    ```sh
    python codegen.py set-key YOUR_GEMINI_API_KEY --model gemini-2.0-pro
-   ```
+   ``` -->
 
 ## Usage
 
 Run the CLI tool using:
 ```sh
-python codegen.py start
+codegen start
 ```
 
 ### Available Commands
@@ -51,13 +51,26 @@ python codegen.py start
 | Command | Description |
 |---------|-------------|
 | `set-key` | Set the API key and (optionally) the default AI model. |
-| `set-model` | Update the default AI model. |
+<!-- | `set-model` | Update the default AI model. | -->
 | `generate` | Generate code from a user prompt. |
 | `ask` | Ask a coding-related question. |
 | `interactive` | Run the CLI in interactive mode. |
 | `start` | Start the CLI menu. |
 
 ### Examples
+
+**Start the CLI:**
+```sh
+codegen start
+
+Welcome to AI Code Generator CLI
+Choose an option:
+1. Generate Code
+2. Ask a Question
+3. Interactive Mode
+4. Exit
+Enter your choice (1-4):
+```
 
 **Generate Code:**
 ```sh
@@ -93,7 +106,7 @@ This project is licensed under the MIT License. See `LICENSE` for details.
 
 ## Author
 
-Developed by [Your Name](https://github.com/your-github).
+Developed by [Your Name](https://github.com/iamcosmo).
 
 ---
 🚀 **Now you’re all set! Start generating code effortlessly!**
