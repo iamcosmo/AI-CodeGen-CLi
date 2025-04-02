@@ -1,1 +1,3 @@
 .env
+AI-CodeGen_CLI.egg-info/
+build/
