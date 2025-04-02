@@ -1,3 +1,20 @@
+Metadata-Version: 2.4
+Name: AI-CodeGen-CLi
+Version: 1.0.0
+Summary: A CLI AI-powered Code Generator using Gemini API
+Home-page: https://github.com/iamcosmo/AI-CodeGen-CLi.git
+Author: Chandan(Cosmos)
+Description-Content-Type: text/markdown
+Requires-Dist: google-generativeai
+Requires-Dist: python-dotenv
+Requires-Dist: rich
+Dynamic: author
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: summary
+
 # AI Code Generator CLI
 
 A powerful command-line tool that generates code snippets and answers coding-related questions using the Google Gemini API.
@@ -21,7 +38,7 @@ Ensure you have the following installed:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/iamcosmo/AI-CodeGen-CLi.git
+   git clone https://github.com/your-repo/ai-codegen-cli.git
    cd ai-codegen-cli
    ```
 
@@ -51,6 +68,7 @@ codegen start
 | Command | Description |
 |---------|-------------|
 | `set-key` | Set the API key and (optionally) the default AI model. |
+<!-- | `set-model` | Update the default AI model. | -->
 | `generate` | Generate code from a user prompt. |
 | `ask` | Ask a coding-related question. |
 | `interactive` | Run the CLI in interactive mode. |
@@ -58,22 +76,9 @@ codegen start
 
 ### Examples
 
-**Start the CLI:**
+**Start App in CLI:**
 ```sh
 codegen start
-
-Welcome to AI Code Generator CLI
-Choose an option:
-1. Generate Code
-2. Ask a Question
-3. Interactive Mode
-4. Exit
-Enter your choice (1-4):
-```
-
-**Generate Code:**
-```sh
-python codegen.py generate "A Python script that reverses a string" --language python
 ```
 
 **Ask a Question:**
@@ -108,5 +113,5 @@ This project is licensed under the MIT License. See `LICENSE` for details.
 Developed by [Your Name](https://github.com/iamcosmo).
 
 ---
-🚀 **Now you’re all set! Start generating code effortlessly!**
+ðŸš€ **Now youâ€™re all set! Start generating code effortlessly!**
 
