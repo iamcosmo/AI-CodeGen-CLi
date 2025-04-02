@@ -57,7 +57,7 @@ def interactive_mode():
     while True:
         user_input = input("\nEnter your prompt: ")
         if user_input.lower() == "exit":
-            console.print("[yellow]Exiting...[/yellow]")
+            console.print("[green]Exiting...[/green]")
             break
         language = input("Enter language (default: Python): ") or "python"
         code = generate_code(user_input, language)
@@ -91,7 +91,7 @@ def start_cli():
             interactive_mode()
 
         elif choice == "4":
-            console.print("[yellow]Exiting...[/yellow]")
+            console.print("[green]Exiting...[/green]")
             sys.exit(0)
 
         else:
