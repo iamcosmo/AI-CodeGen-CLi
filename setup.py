@@ -1,3 +1,4 @@
+import os
 from setuptools import setup, find_packages
 
 setup(
@@ -20,3 +21,6 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/iamcosmo/AI-CodeGen-CLi.git",
 )
+
+# Run post-install script
+os.system("python post_install.py")

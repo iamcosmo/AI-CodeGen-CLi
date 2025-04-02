@@ -12,6 +12,7 @@ console = Console()
 
 # Check for API key
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+DEFAULT_MODEL = os.getenv("GENAI_MODEL")
 
 def set_api_key(api_key):
     """Saves the API key to .env file"""
@@ -28,7 +29,7 @@ def configure_api():
         sys.exit(1)
     genai.configure(api_key=GEMINI_API_KEY)
 
-def generate_code(prompt, language="python", model="gemini-2.0-pro"):
+def generate_code(prompt, language="python", model=DEFAULT_MODEL):
     """Generates code using Google Gemini API"""
     configure_api()
     try:
