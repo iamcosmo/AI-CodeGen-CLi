@@ -106,7 +106,7 @@ This project is licensed under the MIT License. See `LICENSE` for details.
 
 ## Author
 
-Developed by [Your Name](https://github.com/iamcosmo).
+Developed by [Chandan](https://github.com/iamcosmo).
 
 ---
 🚀 **Now you’re all set! Start generating code effortlessly!**
